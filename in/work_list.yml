@@ -1,10 +1,10 @@
 '-1':
 - rowdovecot*fuzz-smtp-server
 '0': 'null'
-'1':
-- rowdovecot*fuzz-message_parser
+'1': 'null'
 '2':
 - rowdovecot*fuzz-imap-utf7
+- rowdovecot*fuzz-message_parser
 '3': 'null'
 '4': 'null'
 '5': 'null'
