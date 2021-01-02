@@ -1,8 +1,8 @@
 '-1':
 - rowdovecot*llvm-symbolizer
-'0': 'null'
-'1':
 - rowdovecot*fuzz-smtp-server
+'0': 'null'
+'1': 'null'
 '2':
 - rowdovecot*fuzz-imap-utf7
 '3': 'null'
