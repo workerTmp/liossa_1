@@ -1,8 +1,8 @@
 '-1':
 - rowdovecot*fuzz-imap-bodystructure
+- rowdovecot*fuzz-message-parser
 '0': 'null'
 '1':
-- rowdovecot*fuzz-message-parser
 - rowdovecot*fuzz-imap-utf7
 - rowdovecot*llvm-symbolizer
 - rowdovecot*fuzz-smtp-server
