@@ -1,5 +1,7 @@
 [![Fuzzing Status Local](docs/rowdovecot/fuzz-smtp-server.svg)](https://github.com/)
+[![Fuzzing Status Local](docs/rowdovecot/fuzz-message-parser.svg)](https://github.com/)
 [![Fuzzing Status Local](docs/rowdovecot/fuzz-message_parser.svg)](https://github.com/)
+[![Fuzzing Status Local](docs/rowdovecot/fuzz-imap-bodystructure.svg)](https://github.com/)
 [![Fuzzing Status Local](docs/rowdovecot/llvm-symbolizer.svg)](https://github.com/)
 [![Fuzzing Status Local](docs/rowdovecot/notFind.svg)](https://github.com/)
 [![Fuzzing Status Local](docs/rowdovecot/fuzz-imap-utf7.svg)](https://github.com/)
