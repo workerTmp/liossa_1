@@ -4,7 +4,11 @@ on:
 #  issue_comment:
 #    types: [created]
   schedule:
-    - cron:  '0 7 1 * *'    
+    - cron:  '0 7 1 * *'
+env:
+  ymlFile: 'work_list.yml'
+  inFold: 'in/'
+  outFold: 'myOut/'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,10 +20,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        (sudo rm in/work_list.yml)
+         (sudo rm ${{env.inFold}}${{env.ymlFile}})
+         (sudo rm -rf ${{env.outFold}}&& mkdir ${{env.outFold}} && sudo date  >> ${{ env.outFold }}tmp)
          sudo git config --local user.email "${GITHUB_ACTOR}@gmail.com"
          sudo git config --local user.name "${GITHUB_ACTOR}"
          sudo git remote -v
-         sudo git add in/
+         sudo git add ${{env.inFold}} ${{env.outFold}}
          sudo git commit -m "clean targets to rep"
          sudo git push "https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" HEAD:master --force 
