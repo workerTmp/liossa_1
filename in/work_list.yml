@@ -1,7 +1,7 @@
-'-1': 'null'
+'-1':
+- rowdovecot*fuzz-imap-bodystructure
 '0': 'null'
 '1':
-- rowdovecot*fuzz-imap-bodystructure
 - rowdovecot*fuzz-smtp-server
 - rowdovecot*llvm-symbolizer
 '2':
