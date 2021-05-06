@@ -5,9 +5,9 @@
 '0': 'null'
 '1': 'null'
 '2':
-- rowdovecot*fuzz-imap-utf7
 - rowdovecot*fuzz-message-parser
-'3': 'null'
+'3':
+- rowdovecot*fuzz-imap-utf7
 '4': 'null'
 '5': 'null'
 '6':
