@@ -3,12 +3,12 @@
 - rowdovecot*fuzz-imap-bodystructure
 - rowdovecot*llvm-symbolizer
 '0': 'null'
-'1': 'null'
+'1':
+- rowdovecot*fuzz-message-parser
 '2': 'null'
 '3': 'null'
 '4': 'null'
 '5':
-- rowdovecot*fuzz-message-parser
 - rowdovecot*fuzz-imap-utf7
 '6':
 - rowdovecot
