@@ -1,7 +1,7 @@
-'-1': 'null'
+'-1':
+- rowdovecot*llvm-symbolizer
 '0': 'null'
 '1':
-- rowdovecot*llvm-symbolizer
 - rowdovecot*fuzz-message-parser
 - rowdovecot*fuzz-imap-utf7
 - rowdovecot*fuzz-imap-bodystructure
