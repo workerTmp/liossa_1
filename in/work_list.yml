@@ -5,10 +5,10 @@
 '0': 'null'
 '1':
 - rowdovecot*fuzz-message-parser
+- rowdovecot*fuzz-imap-utf7
 '2': 'null'
 '3': 'null'
 '4': 'null'
-'5':
-- rowdovecot*fuzz-imap-utf7
+'5': 'null'
 '6':
 - rowdovecot
