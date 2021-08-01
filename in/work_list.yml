@@ -1,9 +1,14 @@
 '-1': 'null'
-'0':
-- rowdovecot
-'1': 'null'
+'0': 'null'
+'1':
+- rowdovecot*fuzz-message-parser
+- rowdovecot*fuzz-imap-bodystructure
+- rowdovecot*fuzz-imap-utf7
+- rowdovecot*fuzz-smtp-server
+- rowdovecot*llvm-symbolizer
 '2': 'null'
 '3': 'null'
 '4': 'null'
 '5': 'null'
-'6': 'null'
+'6':
+- rowdovecot
