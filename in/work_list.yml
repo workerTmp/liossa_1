@@ -3,10 +3,10 @@
 - rowdovecot*fuzz-smtp-server
 - rowdovecot*llvm-symbolizer
 '0': 'null'
-'1':
-- rowdovecot*fuzz-imap-utf7
+'1': 'null'
 '2':
 - rowdovecot*fuzz-message-parser
+- rowdovecot*fuzz-imap-utf7
 '3': 'null'
 '4': 'null'
 '5': 'null'
